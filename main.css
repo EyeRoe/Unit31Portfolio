@@ -1,0 +1,73 @@
+html {
+  font-size: 16px;
+}
+body{
+font-family: 'IM Fell Great Primer', serif;
+color: black;
+}
+.navigation {
+  background: #373246;
+  color: #d49f92;
+  padding: 0 4rem;
+}
+
+.navigation img.profile {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.navigation p.lead {
+  line-height: 2rem;
+  margin-top: 2rem;
+  text-align: right;
+  width: 75%;
+}
+
+.social-icons i{
+  border: 1px solid #d49f92;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin: 0 0.3rem;
+  padding: 1rem;
+}
+
+.social-icons {
+  color: #d49f92;
+  margin-top: 4rem;
+  text-align: right;
+}
+
+a {
+  color: #d49f92;
+  text-decoration: none;
+}
+a:visited,a:hover{
+    color: #c3375a;
+}
+
+.main {
+  background-image: url('assets/background.jpg');
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  padding: 0 10rem 0 4rem;
+}
+
+.main h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.main hr {
+  margin: 5rem 0;
+}
+
+.portfolio-item img {
+  border-radius: 0.4rem;
+  margin: 1rem 0 2rem;
+  width: 100%;
+}
+
+.portfolio-item h3 {
+  font-size: 1.2rem;
+}
