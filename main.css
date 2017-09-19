@@ -1,13 +1,30 @@
+aside {
+  margin-top: 1em;
+}
 html {
   font-size: 16px;
 }
 body{
 font-family: 'IM Fell Great Primer', serif;
-color: black;
+color: #373246;
+background-color: #373246;
+}
+h1,h3{
+color: #d49f92;
+}
+
+h2,h4{
+  color: #373246;
+}
+p{
+  color: #373246
+}
+.portfolioText{
+  background-color: rgba(212,160,145,0.3);
 }
 .navigation {
+
   background: #373246;
-  color: #d49f92;
   padding: 0 4rem;
 }
 
@@ -41,7 +58,11 @@ a {
   color: #d49f92;
   text-decoration: none;
 }
-a:visited,a:hover{
+a:visited{
+    color:#d49f92;
+}
+
+a:hover{
     color: #c3375a;
 }
 
@@ -71,3 +92,5 @@ a:visited,a:hover{
 .portfolio-item h3 {
   font-size: 1.2rem;
 }
+
+
